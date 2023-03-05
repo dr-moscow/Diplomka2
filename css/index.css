@@ -40,7 +40,6 @@
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 600;
 	margin: 0px;
-
 }
 
 .menu:hover {
@@ -49,24 +48,36 @@
 
 /* css for maim */
 .main {
-	display: flex;
+	/* box-sizing: border-box; */
+	/* display: flex; */
 	flex-grow: 1;
+	/* margin: 0; */
+	background-color:  #F6F2F2;
 }
 
-.main-div {
-	display: flex;
-	flex-wrap: wrap;
-	/* margin-left: 216px; */
-	/* align-content: center; */
-	max-width: 1249px;
+.in-section {
+	/* display: flex; */
+	position: relative;
+	bottom: 12px;
+	max-width: 617px;
+	/* min-height: 117px; */
+	margin-bottom: 20px;
+	margin-right: 75px;
 }
 
 .main-section {
-	display: inline-block;
+	display: flex;
+	flex-wrap: wrap;
+	padding-top: 107px;
+	padding-bottom: 94px;
+	justify-content: space-between;
+	/* display: inline-block; */
 	/* flex-wrap: wrap; */
 	/* margin-top: 115px; */
 	/* position: relative; */
-	align-content: baseline;
+	align-items: flex-start;
+	max-width: 1249px;
+	margin: 0 auto;
 }
 
 /* .main-section2 {
@@ -74,24 +85,33 @@
 } */
 
 .h1-class {
+	display: flex;
+	flex-wrap: wrap;
 	font-family: 'Open Sans', sans-serif;
 	font-weight: 900;
 	font-size: 60px;
 	line-height: 72px;
-	letter-spacing: 1.5px;
+	letter-spacing: 6.5px;
 	text-transform: uppercase;
 	/* margin-top: 115px; */
-	max-width: 618px;
+	/* max-width: 618px; */
+	/* max-height: 117px; */
 	margin: 0;
+	padding-bottom: 14px;
 }
 
 .text {
+	display: flex;
+	flex-wrap: wrap;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 15.9953px;
 	text-align: justify;
 	max-width: 544.85px;
-	max-height: 73px;
+	min-height: 72px;
+	/* max-height: 73px; */
 	margin: 0;
+	line-height: 28px;
+	margin-bottom: 54px;
 }
 
 /* .img-color {
@@ -99,13 +119,22 @@
 } */
 
 .img-color2 {
+	display: flex;
+	flex-wrap: wrap;
 	background-color: #FF2D2D;
 	max-width: 551px;
 	max-height: 356px;
 	/* margin-top: 115px; */
-	align-items: end;
-
+	/* align-items: end; */
 }
+
+.kvadrat {
+	display: flex;
+	width: 70px;
+	min-height: 69px;
+	background: #140303;
+	box-sizing: border-box;
+	}
 
 .button {
 	font-family: 'Open Sans', sans-serif;
@@ -118,5 +147,7 @@
 	letter-spacing: 0.3195px;
 	color: #FFFFFF;
 	border-radius: 6px;
-	
+	padding: 0px;
+	box-sizing: border-box;
+	display: inline-block;
 }
