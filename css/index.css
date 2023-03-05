@@ -122,19 +122,12 @@
 	display: flex;
 	flex-wrap: wrap;
 	background-color: #FF2D2D;
-	max-width: 551px;
-	max-height: 356px;
+	max-width: 554px;
+	min-height: 359px;
 	/* margin-top: 115px; */
 	/* align-items: end; */
+	box-shadow: -2.2px -13.8px 73px rgba(0, 0, 0, 0.29);
 }
-
-.kvadrat {
-	display: flex;
-	width: 70px;
-	min-height: 69px;
-	background: #140303;
-	box-sizing: border-box;
-	}
 
 .button {
 	font-family: 'Open Sans', sans-serif;
