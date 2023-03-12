@@ -52,7 +52,11 @@
 	/* display: flex; */
 	flex-grow: 1;
 	/* margin: 0; */
-	background-color:  #F6F2F2;
+
+}
+
+.main-div {
+	background-color: #F6F2F2;
 }
 
 .in-section {
@@ -143,4 +147,120 @@
 	padding: 0px;
 	box-sizing: border-box;
 	display: inline-block;
+}
+
+/* section part 2 */
+
+
+.set-h2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 42.1902px;
+	letter-spacing: 0.422159px;
+	text-transform: uppercase;
+	color: #000000;
+	position: relative;
+	bottom: 5px;
+	margin-bottom: 28px;
+}
+
+.text2 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #000000;
+	line-height: 28px;
+	margin: 0;
+	margin-bottom: 45px;
+}
+
+.button2 {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 600;
+	width: 227px;
+	height: 55px;
+	background-color: rgba(0, 0, 0, 0.0001);
+	font-size: 18.0412px;
+	line-height: 34px;
+	border: 2px solid #FF2D2D;
+	border-radius: 4px;
+	letter-spacing: 0.3195px;
+	color: #FF2D2D;
+	padding: 0px;
+	box-sizing: border-box;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.set-h3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24.0692px;
+	letter-spacing: 0.271838px;
+	color: #000000;
+	margin: 0;
+	font-weight: 600;
+	margin-bottom: 11px;
+	/* padding-right: 10px; */
+}
+
+.set-h3::before {
+	display: block;
+	width: 41px;
+	height: 41px;
+	margin-bottom: 20px;
+}
+
+.set-h3-pic::before {
+	content: url(../img/Combined\ shape\ 15719.png);
+}
+
+.set-h3-ui::before {
+	content: url(../img/Combined\ shape\ 15722.png);
+}
+
+.set-h3-logo::before {
+	content: url(../img/Combined\ shape\ 15729.png);
+}
+
+.set-h3-anime::before {
+	content: url(../img/Combined\ shape\ 15734.png);
+}
+
+.text3 {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 28px;
+	color: #000000;
+	margin: 0;
+	/* margin-right: 20px; */
+}
+
+.service {
+	display: flex;
+	padding-top: 60px;
+	padding-bottom: 40px;
+	justify-content: space-between;
+	align-items: flex-start;
+	margin: 0 auto;
+	border-bottom: 2px solid #ECECEC;
+	max-width: 1249px;
+}
+
+.part1 {
+	flex: 1 1 502px;
+	max-width: 502px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+}
+
+.part2 {
+	display: flex;
+	flex-wrap: wrap;
+	flex: 1 1;
+	max-width: 610px;
+	margin-top: 45px;
+}
+
+.section__part {
+	flex: 1 1 300px;
+	max-width: 300px;
+	margin-bottom: 46px;
 }
