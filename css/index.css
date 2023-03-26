@@ -384,6 +384,7 @@
 	width: 100%;
 	align-items: stretch;
 	min-height: 465px;
+	margin-bottom: 90px;
 }
 
 .team__member-photo {
@@ -505,10 +506,10 @@
 	box-sizing: border-box;
 	width: 100%;
 	/* flex-wrap: wrap; */
-	padding-top: 107px;
+	padding-top: 159px;
 	padding-bottom: 94px;
-	/* justify-content: space-between; */
-	/* align-items: flex-start; */
+	justify-content: space-between;
+	align-items: flex-start;
 	max-width: 100%;
 	/* margin: 0 auto; */
 	background-color: #2D2D2D;
@@ -530,7 +531,7 @@
 	line-height: 24px;
 	letter-spacing: 1.05px;
 	color: #FFFFFF;
-	margin-bottom: 30px;
+	margin-bottom: 24px;
 }
 
 .subscribe__text {
@@ -540,7 +541,7 @@
 	font-size: 15.9953px;
 	line-height: 28px;
 	color: #FFFFFF;
-	margin-bottom: 50px;
+	margin-bottom: 56px;
 }
 
 .subscribe__form {
@@ -548,21 +549,45 @@
 	flex-wrap: wrap;
 	/* align-items: baseline; */
 	justify-content: center;
-}
+	}
 
 .subscribe__input {
 	display: flex;
 	flex-wrap: wrap;
-	flex: 0 1 520px;
+	flex: 0 1 524px;
 	color: #161414;
-	align-items: center;
+	/* align-items: center; */
 	min-height: 72px;
 	padding: 0;
-	padding-right: 22px;
-	padding-left: 36px;
+	/* padding-right: 22px; */
+	padding-left: 42px;
 	border: none;
 	background-color: #FFFFFF;
-	margin-bottom: 16px;
+	/* margin-bottom: 16px; */
 	border-radius: 3px;
+	max-width: 524px;
+	height: 82px;
+	/* margin-right: 19px; */
+	box-sizing: border-box;
+	margin-left: -7px;
 }
 
+.subscribe__button {
+	display: inline-block;
+	width: 217px;
+	height: 82px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	padding: 0;
+	font-weight: 700;
+	font-size: 17.9026px;
+	line-height: 34px;
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+	background-color: #FF2D2D;
+	border-radius: 4px;
+	margin-left: 19px;
+	color: #FFFFFF;
+	box-sizing: border-box;
+	border: none;
+	}
