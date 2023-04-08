@@ -728,10 +728,12 @@
 /* contact right */
 .contact__blocl-right {
 	box-sizing: border-box;
-	max-width: 580px;
-	min-height: 485px;
+	width: 580px;
+	height: 485px;
+	
 	/* margin-left: 50px; */
 	background: url(../img/Rectangle\ 2.png)
+	
 }
 
 
@@ -750,6 +752,7 @@
 	font-weight: 400;
 	font-size: 16px;
 	line-height: 28px;
+	margin-left: 81px;
 	color: #FFFFFF;
 }
 
@@ -762,5 +765,14 @@
 	letter-spacing: 0.317046px;
 	text-transform: uppercase;
 	color: #FFFFFF;
-	margin-top: 100px;
+	margin-top: 136px;
+	margin-left: 81px;
+}
+
+.prime {
+	/* margin-left: 50px; */
+	margin-right: 0;
+	padding-right: 0;
+	max-width: 580px;
+	max-height: 485px;
 }
