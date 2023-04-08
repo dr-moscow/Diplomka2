@@ -603,10 +603,15 @@
 	justify-content: center;
 	align-items: flex-end;
 	margin-bottom: 50px;
+	/* margin-right: 0; */
+	/* margin-left: 0; */
 }
 
 .contact__block-left {
+	
 	margin-top: 41px;
+	/* margin-left: 116px; */
+	/* margin-right: 70px; */
 }
 
 .contact__form {
@@ -645,7 +650,7 @@
 }
 
 .contact__line {
-	margin-bottom: 45px;
+	margin-bottom: 77px;
 }
 
 .contact__form2 {
@@ -656,7 +661,7 @@
 	border-radius: 10px;
 	margin-right: 48px;
 	margin-bottom: 30px;
-	padding-left: 20px;
+	padding-left: 51px;
 	border: none;
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -671,7 +676,7 @@
 	width: 339px;
 	height: 69px;
 	border-radius: 10px;
-	padding-left: 20px;
+	padding-left: 47px;
 	border: none;
 	font-family: 'Open Sans';
 	font-style: normal;
@@ -696,10 +701,11 @@
 	font-weight: 400;
 	font-size: 15.9134px;
 	line-height: 28px;
-	padding-left: 20px;
-	padding-top: 20px;
+	padding-left: 52px;
+	padding-top: 28px;
 	color: #000000;
-	margin-bottom: 38px;
+	margin-bottom: 37px;
+	margin-top: 16px;
 }
 
 .contact__button {
@@ -722,19 +728,12 @@
 /* contact right */
 .contact__blocl-right {
 	box-sizing: border-box;
-	width: 580px;
-	height: 485px;
-	background-color: #2D2D2D;
-	color: #FFFFFF;
+	max-width: 580px;
+	min-height: 485px;
+	/* margin-left: 50px; */
+	background: url(../img/Rectangle\ 2.png)
 }
 
-.prime {
-	/* margin-left: 50px; */
-	margin-right: 0;
-	padding-right: 0;
-	max-width: 580px;
-	max-height: 485px;
-}
 
 .contact__form1 {
 	box-sizing: border-box;
@@ -742,5 +741,26 @@
 	/* margin: 0; */
 	/* padding: 0; */
 	max-width: 735px;
-	/* margin-right: 50px; */
+	margin-right: 50px;
+}
+
+.contact-text {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 28px;
+	color: #FFFFFF;
+}
+
+.contact-item {
+	font-family: 'Open Sans';
+	font-style: normal;
+	font-weight: 700;
+	font-size: 17.9026px;
+	line-height: 34px;
+	letter-spacing: 0.317046px;
+	text-transform: uppercase;
+	color: #FFFFFF;
+	margin-top: 100px;
 }
