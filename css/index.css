@@ -736,7 +736,6 @@
 	/* background: url(../img/Rectangle\ 2.png) */
 }
 
-
 .contact__form1 {
 	box-sizing: border-box;
 	/* display: block; */
@@ -812,4 +811,99 @@
 
 .links {
 	margin-left: 18px;
+}
+
+/* Responsive */
+@media screen and (max-width: 1280px) {
+	.contact__blocl-right {
+		width: 480px;
+		transform: translate(1%);
+	}
+}
+
+@media screen and (max-width: 1100px) {
+	.in-section {
+		margin: auto;
+	}
+
+	.main-section {
+		justify-content: center;
+	}
+
+	.part1 {
+		margin-left: 20px;
+	}
+
+	.feature__product-item {
+		margin: 0 15px 0 15px;
+	}
+
+	.team__member-block {
+		margin-left: 20px;
+	}
+
+	.team__member-block1 {
+		margin-left: 20px;
+	}
+
+	.contact__block {
+		flex-wrap: wrap;
+	}
+
+	.contact__form1 {
+		margin-bottom: 20px;
+	}
+
+	.subscribe__header {
+		line-height: 45px;
+	}
+}
+
+@media screen and (max-width: 890px) {
+	.team__member-content {
+		flex-direction: row;
+		justify-content: center;
+	}
+
+	.team__member2 {
+		display: block;
+	}
+}
+
+@media screen and (max-width: 753px) {
+	.subscribe__input {
+		margin-bottom: 15px;
+	}
+
+	.contact__block-left {
+		margin-left: 15px;
+	}
+
+	.h1-class {
+		font-size: 50px;
+	}
+
+	.in-section {
+		margin-left: 15px;
+	}
+
+	.contact__form2 {
+		width: 260px;
+	}
+
+	.contact__form4 {
+		width: 260px;
+	}
+
+	.contact__form6 {
+		width: 575px;
+	}
+
+	.contact__button {
+		width: 575px;
+	}
+
+	.feature__product-item {
+		justify-content: center;
+	}
 }
