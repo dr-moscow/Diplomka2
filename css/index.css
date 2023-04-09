@@ -730,19 +730,18 @@
 	box-sizing: border-box;
 	width: 580px;
 	height: 485px;
-
+	transform: translate(20%);
+	background-color: #2D2D2D;
 	/* margin-left: 50px; */
-	background: url(../img/Rectangle\ 2.png)
+	/* background: url(../img/Rectangle\ 2.png) */
 }
 
 
 .contact__form1 {
 	box-sizing: border-box;
 	/* display: block; */
-	/* margin: 0; */
-	/* padding: 0; */
 	max-width: 735px;
-	margin-right: 50px;
+	/* margin-right: 50px; */
 }
 
 .contact-text {
@@ -781,7 +780,7 @@
 	display: flex;
 	flex-wrap: wrap;
 	box-sizing: border-box;
-	max-width: 1586px;
+	width: 100%;
 	min-height: 113px;
 	margin: 0 auto;
 	justify-content: space-around;
@@ -803,7 +802,7 @@
 	line-height: 26px;
 	color: #B8B8B8;
 	align-items: center;
-	margin-left: -107px;
+	/* margin-left: -107px; */
 }
 
 .social__links {
