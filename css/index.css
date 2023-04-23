@@ -784,7 +784,7 @@
 	margin: 0 auto;
 	justify-content: space-around;
 	background-color: #313030;
-	margin-bottom: 50px;
+	/* margin-bottom: 50px; */
 	/* padding: 20px; */
 }
 
@@ -875,6 +875,10 @@
 		margin-bottom: 15px;
 	}
 
+	.service {
+		flex-wrap: wrap;
+	}
+
 	.contact__block-left {
 		margin-left: 15px;
 	}
@@ -896,14 +900,93 @@
 	}
 
 	.contact__form6 {
-		width: 575px;
+		width: 350px;
 	}
 
 	.contact__button {
-		width: 575px;
+		max-width: 352px;
 	}
 
 	.feature__product-item {
 		justify-content: center;
 	}
+
+	.contact__form1 {
+		width: 500px;
+	}
+
+	.contact__block-form {
+		align-items: center;
+	}
+}
+
+@media screen and (max-width: 575px) {
+	.img-color2 {
+		width: 300px;
+	}
+
+	.h1-class {
+		font-size: 20px;
+		line-height: 28px;
+	}
+
+	.in-section {
+		justify-self: center;
+	}
+
+	.service {
+		display: flex;
+		flex-wrap: wrap;
+	}
+
+	.contact__form {
+		font-size: 20px;
+	}
+
+	.contact__block-left {
+		max-width: 313px;
+	}
+
+	.contact__form6 {
+		max-width: 300px;
+	}
+
+	.contact__button {
+		max-width: 300px;
+	}
+
+	.subscribe__input {
+		max-width: 300px;
+	}
+
+	.part2 {
+		max-width: 300px;
+	}
+
+	.feature__product-heading {
+		font-size: 20px;
+	}
+
+	.team__member-heading {
+		font-size: 20px;
+	}
+
+	.team__member-name {
+		font-size: 20px;
+	}
+
+	.contact__blocl-right {
+		max-width: 400px;
+	}
+
+	.contact__blocl-right {
+		max-width: 319px;
+	}
+
+	.team__member-photo {
+		width: 300px;
+		padding: 0;
+		margin: 0 auto;
+	}
+	
 }
