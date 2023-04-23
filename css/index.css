@@ -47,6 +47,20 @@
 	margin: 0px;
 }
 
+/* popupMenu */
+/* .poopup--menu-button {
+	z-index: 1;
+	display: none;
+	padding: 0;
+	min-width: 150px;
+	height: 50px;
+	background-image: url(../img/hamburger-lg-svgrepo-com.svg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-color: #000000;
+} */
+/* popupMenu end */
+
 .menu:hover {
 	background-color: #FF3F40;
 }
@@ -57,7 +71,6 @@
 	/* display: flex; */
 	flex-grow: 1;
 	/* margin: 0; */
-
 }
 
 .main-div {
@@ -993,5 +1006,46 @@
 		padding: 0;
 		margin: 0 auto;
 	}
-
 }
+
+/* for popup button */
+/* @media screen and (max-width: 575px) {
+	.poopup--menu-button {
+		display: block;
+	}
+
+	.poopup--menu {
+		position: relative;
+		align-self: center;
+		display: flex;
+		justify-content: center;
+	}
+
+	.poopup--menu-list {
+		visibility: visible;
+		position: absolute;
+		bottom: 0;
+		transform: translateY(100%);
+		z-index: -1;
+		min-width: 150px;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: wrap;
+		align-items: stretch;
+		padding: 0;
+		margin: 0;
+		background-color: #161414;
+	}
+}
+
+@media screen and (min-width: 576px) {
+	.poopup--menu-list {
+		visibility: hidden;
+	}
+
+	.navigation {
+		overflow: hidden;
+	}
+} */
+
+/* for popup button end */
