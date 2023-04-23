@@ -1,7 +1,12 @@
+:root {
+	--color-text: #000000;
+	--font-family: "Open Sans", sans-serif;
+}
+
 .body {
 	min-height: 100vh;
 	margin: 0px;
-	font-family: "Open Sans", sans-serif;
+	font-family: var(--font-family);
 }
 
 .container-header {
@@ -37,7 +42,7 @@
 	padding: 35px;
 	font-size: 14px;
 	letter-spacing: 0.49px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-weight: 600;
 	margin: 0px;
 }
@@ -91,7 +96,7 @@
 .h1-class {
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-weight: 900;
 	font-size: 60px;
 	line-height: 72px;
@@ -107,7 +112,7 @@
 .text {
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 15.9953px;
 	text-align: justify;
 	max-width: 544.85px;
@@ -131,7 +136,7 @@
 }
 
 .button {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	width: 227px;
 	height: 55px;
 	background-color: #FF2D2D;
@@ -149,11 +154,11 @@
 /* section part 2 */
 
 .set-h2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 42.1902px;
 	letter-spacing: 0.422159px;
 	text-transform: uppercase;
-	color: #000000;
+	color: var(--color-text);
 	position: relative;
 	bottom: 5px;
 	margin-bottom: 28px;
@@ -162,14 +167,14 @@
 .text2 {
 	font-family: 'Open Sans', sans-serif;
 	font-size: 16px;
-	color: #000000;
+	color: var(--color-text);
 	line-height: 28px;
 	margin: 0;
 	margin-bottom: 45px;
 }
 
 .button2 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-weight: 600;
 	width: 227px;
 	height: 55px;
@@ -187,10 +192,10 @@
 }
 
 .set-h3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 24.0692px;
 	letter-spacing: 0.271838px;
-	color: #000000;
+	color: var(--color-text);
 	margin: 0;
 	font-weight: 600;
 	margin-bottom: 11px;
@@ -221,10 +226,10 @@
 }
 
 .text3 {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 16px;
 	line-height: 28px;
-	color: #000000;
+	color: var(--color-text);
 	margin: 0;
 	/* margin-right: 20px; */
 }
@@ -274,7 +279,7 @@
 }
 
 .feature__product-heading {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 41.9876px;
 	text-transform: uppercase;
 	letter-spacing: 0.3834px;
@@ -311,8 +316,8 @@
 }
 
 .feature__product-activ {
-	font-family: 'Open Sans', sans-serif;
-	color: #000000;
+	font-family: var(--font-family);
+	color: var(--color-text);
 	position: relative;
 	margin-right: 50px;
 	font-size: 22px;
@@ -358,7 +363,7 @@
 }
 
 .team__member-heading {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-size: 41.9876px;
 	text-transform: uppercase;
 	letter-spacing: 0.3834px;
@@ -422,7 +427,7 @@
 }
 
 .team__member-name {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 600;
 	font-size: 30.127px;
@@ -433,7 +438,7 @@
 }
 
 .social__media {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-style: italic;
 	font-weight: 400;
 	font-size: 18px;
@@ -525,7 +530,7 @@
 
 .subscribe__header {
 	margin: 0;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 42px;
@@ -536,7 +541,7 @@
 }
 
 .subscribe__text {
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15.9953px;
@@ -577,7 +582,7 @@
 	display: inline-block;
 	width: 217px;
 	height: 82px;
-	font-family: 'Open Sans', sans-serif;
+	font-family: var(--font-family);
 	font-style: normal;
 	padding: 0;
 	font-weight: 700;
@@ -617,14 +622,14 @@
 .contact__form {
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 41.9876px;
 	line-height: 0px;
 	letter-spacing: 0.3834px;
 	text-transform: uppercase;
-	color: #000000;
+	color: var(--color-text);
 	margin-bottom: 57px;
 }
 
@@ -638,14 +643,14 @@
 .contact__text {
 	display: flex;
 	flex-wrap: wrap;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15.9953px;
 	line-height: 28px;
 	max-width: 752.85px;
 	height: 73px;
-	color: #000000;
+	color: var(--color-text);
 	margin-bottom: 62px;
 }
 
@@ -663,7 +668,7 @@
 	margin-bottom: 30px;
 	padding-left: 51px;
 	border: none;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15.9134px;
@@ -678,7 +683,7 @@
 	border-radius: 10px;
 	padding-left: 47px;
 	border: none;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15.9134px;
@@ -696,20 +701,20 @@
 	margin: 0;
 	border: none;
 	resize: none;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 15.9134px;
 	line-height: 28px;
 	padding-left: 52px;
 	padding-top: 28px;
-	color: #000000;
+	color: var(--color-text);
 	margin-bottom: 37px;
 	margin-top: 16px;
 }
 
 .contact__button {
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 17.9026px;
@@ -744,7 +749,7 @@
 }
 
 .contact-text {
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -754,7 +759,7 @@
 }
 
 .contact-item {
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 700;
 	font-size: 17.9026px;
@@ -794,7 +799,7 @@
 
 .footer_text {
 	display: flex;
-	font-family: 'Open Sans';
+	font-family: var(--font-family);
 	font-style: normal;
 	font-weight: 400;
 	font-size: 16px;
@@ -964,7 +969,7 @@
 	}
 
 	.feature__product-heading {
-		font-size: 20px;
+		font-size: calc(41.9876px - 22px);
 	}
 
 	.team__member-heading {
@@ -980,13 +985,13 @@
 	}
 
 	.contact__blocl-right {
-		max-width: 319px;
+		max-width: min(90%, 319px);
 	}
 
 	.team__member-photo {
-		width: 300px;
+		width: calc(404px - 134px);
 		padding: 0;
 		margin: 0 auto;
 	}
-	
+
 }
