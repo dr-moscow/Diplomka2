@@ -1,12 +1,26 @@
-const popupButton = document.querySelector ('.poopup--menu-button');
-const popupWrapper = document.querySelector ('.poopup--menu');
-const popupMenu = document.querySelector ('.poopup--menu-list');
+let buttLogin = document.querySelector(".login");
+let buttLogPopup = document.querySelector(".login-popup");
+buttLogin.addEventListener("click", showPupUp);
+function showPupUp(event) {
+	event.preventDefault();
+	buttLogPopup.classList.toggle("show-popup")
+};
 
-popupButton.addEventListener ('click', handleMenu);
 
-function handleMenu() {
-	popupMenu.classList.toggle('hide-poopup');
-}
+
+
+
+
+
+// const popupButton = document.querySelector ('.poopup--menu-button');
+// const popupWrapper = document.querySelector ('.poopup--menu');
+// const popupMenu = document.querySelector ('.poopup--menu-list');
+
+// popupButton.addEventListener ('click', handleMenu);
+
+// function handleMenu() {
+// 	popupMenu.classList.toggle('hide-poopup');
+// }
 
 // document.addEventListener ('click', hidePopup);
 // function hidePopup(el) {
