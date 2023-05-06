@@ -922,7 +922,7 @@
 		transform: translateY(100%);
 		z-index: 1;
 		min-width: 150px;
-		display: flex;
+		display: none;
 		flex-direction: column;
 		flex-wrap: wrap;
 		align-items: stretch;
@@ -931,6 +931,11 @@
 		background-color: #000000;
 		/* transition: visibility; */
 		/* transform: 1s, 0.5s ease-in-out; */
+	}
+
+	
+	.poopup--menu-list.show-popup {
+		display:flex;
 	}
 }
 
