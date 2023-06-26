@@ -1035,3 +1035,28 @@
 		margin: 0 auto;
 	}
 }
+
+/* buttonUp */
+#btnUp {
+width: 50px;
+height: 50px;
+background-color: #2f55fa;
+border: 2px solid #ce0f55;
+position: fixed;
+bottom: 20px;
+right: 20px;
+opacity: .8;
+font-size: 30px;
+color: #fff;
+transition: .2s linear;
+cursor: pointer;
+}
+
+#btnUp:hover {
+	opacity: 1;
+	}
+
+#btnUp:focus {
+	outline: none;
+	}
+	/* endbtmUo */
